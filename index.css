@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.top {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 3px;
+    border-bottom: 5px solid black;
+    font-size: 17px
+}
+
+.line {
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+
+#name,
+#email,
+#phone,
+#address,
+#city,
+#zip {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    background: whitesmoke;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form {
+    border-top: 2px solid black;
+}
+
+.container {
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    background: #2d4059;
+    color: white;
+    padding: 15px;
+}
+
+
+legend {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+fieldset {
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    background: #66bfbf;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+
+#state {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#zip {
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+#HTML_News,
+#CSS_News,
+#Javascript_News,
+#HTML,
+#Plain_Text {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#Javascript_News,
+#Plain_Text {
+    margin-bottom: 30px;
+}
+
+:placeholder-shown {
+    text-align: right;
+    font-style: italic;
+}
+
+.bottom {
+    font-style: italic;
+    text-align: center;
+    margin-top: 1px;
+}
+
+#name:focus,
+#email:focus,
+#phone:focus,
+#address:focus,
+#city:focus,
+#state:focus,
+#zip:focus {
+    background: beige;
+    color: rgb(57, 136, 123);
+}
+
+
+textarea:focus {
+    background: beige;
+    color: rgb(57, 136, 123);
+}
+
+@media screen and (min-width: 768px) {
+
+  .container {
+    margin: auto;
+    max-width: 65%;
+  }
+
+
+    #zip {
+        width: 25%;
+    }
+
+   .top {
+    font-size: 15px;
+   }
+
+  .break {
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+   }
+
+   label {
+    flex-basis: 150px;
+    align-self: center;
+  }
+
+
+  #name,
+  #email,
+  #phone,
+  #address,
+  #city,
+  #state {
+    margin-left: 50px;
+  }
+  
+  
+  }
